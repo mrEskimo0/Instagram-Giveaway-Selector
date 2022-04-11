@@ -26,7 +26,7 @@ PASSWORD="instagrampassword"
 
 ## User Guide
 
-This application is designed to be used on the command line. The 2 ways to start the application are to either:
+This application is designed to be used on the command line. There are two ways to start the application:
 
 * Start a terminal or command line window, navigate to the downloaded repository and call the main.py file
 
