@@ -26,6 +26,16 @@ PASSWORD="instagrampassword"
 
 ## User Guide
 
-This application is designed to be used on the command line. First users will be prompted to input the account name of the Giveaway Account. Next, users will input the account names of Accounts that giveaway contestants need to be following to win. <b>The giveaway account is automatically added to the list of accounts that need to be followed, adding it twice will cause the application to not pick a winner.</b> Once all accounts that need to be followed are added, input q to move on. The user will then be prompted to input the shortcode of the giveaway post. The Shortcode can be found by selecting the post on the browser, and finding the string of characters after /p/, and up to the final / of the url. For example, https://www.instagram.com/p/THIS IS THE SHORTCODE/, simply copy the characters that would be in "THIS IS THE SHORTCODE". 
+This application is designed to be used on the command line. The 2 ways to start the application are to either:
+
+* Start a terminal or command line window, navigate to the downloaded repository and call the main.py file
+
+```bash
+cd /path/to/downloaded_repo/
+python3 main.py
+```
+* Using finder or file explorer, navigate to the downloaded repository and double click main.py to start
+
+First users will be prompted to input the account name of the Giveaway Account. Next, users will input the account names of Accounts that giveaway contestants need to be following to win. <b>The giveaway account is automatically added to the list of accounts that need to be followed, adding it twice will cause the application to not pick a winner.</b> Once all accounts that need to be followed are added, input q to move on. The user will then be prompted to input the shortcode of the giveaway post. The Shortcode can be found by selecting the post on the browser, and finding the string of characters after /p/, and up to the final / of the url. For example, https://www.instagram.com/p/THIS IS THE SHORTCODE/, simply copy the characters that would be in "THIS IS THE SHORTCODE". 
 
 Once the shortcode is entered, wait for the program to finish running and the winner will be printed in the command line window. 
