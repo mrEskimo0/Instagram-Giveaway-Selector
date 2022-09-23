@@ -27,9 +27,11 @@ def get_comments(post, L, desired_follows):
                         follow_flag = True
             if follow_flag:
                 user_comments.append(comment.owner.username)
-                
+
     return user_comments
 
 def pick_comment(user_set):
     # pick a comment from list
+    if not user_set:
+        return 'no users eligeable'
     return random.choice(user_set)
